@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background: linear-gradient( rgb(0, 0, 3), rgb(9, 50, 107));
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)*/
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 0;
+   
+}
+
+.border {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #000000b2;
+    color: white;
+    padding: 10em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 1em;
+    
+
+
+}
+
+.search {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 8em;
+    
+
+}
+
+.search-bar {
+
+    border: none;
+    outline: none;
+    padding: 1em;
+    border-radius: 16px;
+    background: #2423232b;
+    color: white;
+    font-size: 100%;
+    width: 100%;
+
+}
+
+button {
+
+    margin: 1em;
+    border-radius: 50%;
+    border: none;
+    width: 3.5em;
+    height: 2.5em;
+    outline: none;
+    background: #7c7c7c6b;
+    color: white;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+
+/* this is to hide the weather info when we first load the page*/
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    color: white;
+    visibility: hidden;
+}
+
+.city {
+    
+    position: relative;
+    bottom: 2.5em;
+    font-size: 210%;
+
+}
+
+.temperature {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: 2.5em;
+    width: 8em;
+    height: 8em;
+    
+}
+
+.temp {
+
+    position: relative;
+    bottom: 1.5em;
+    font-size: 180%;
+
+}
+
+.description {
+    text-transform: capitalize;
+    position: relative;
+    top: 0.5em;
+    font-size: 160%;
+}
+
+.humidity {
+    position: relative;
+    top: 0.5em;
+    font-size: 160%;
+}
+
+.wind-speed {
+    position: relative;
+    top: 0.5em;
+    font-size: 160%;
+}
+
+.temp-max {
+    position: relative;
+    top: 0.5em;
+    font-size: 160%;
+}
+
+.temp-min {
+    position: relative;
+    top: 0.5em;
+    font-size: 160%;
+}
+
